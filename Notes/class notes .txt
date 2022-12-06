@@ -1,0 +1,99 @@
+ls stands for list using it you can see the folders in the directory
+
+5:08
+3. Linux Operating System -- 19. Navigating Through Linux System
+	two dots after cd tell the terminal to go back
+
+	pwd telsss the current directory we are in
+
+10:37
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	rm foldername -r deletes the folder
+
+9:26
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	rm filename deletes a file
+
+
+
+8:51
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	use cp filename1 filename2 this will copy filename1 ti filename2
+
+8:28
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	cp copies the file
+
+7:22
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	mv filename foldername to move the file to another folder
+
+6:23
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	mkdir is used to make dorectories
+
+2:17
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	echo messages > filename writes to the file
+
+1:47
+3. Linux Operating System -- 20. Creating Files & Managing Directories
+	cat command shows the content of the file
+
+	touch filename creates a file
+
+3:50
+4. Reconnaissance & Information Gathering -- 25. Obtaining IP Address, Physical Address Using Whois Tool
+	use nslookup website   to get infos
+
+4:40
+4. Reconnaissance & Information Gathering -- 27. Aggressive Website Technology Discovering on IP Range
+	write down the password field its important
+
+
+
+3:03
+5. Scanning -- 42. Discovering Target Operating System
+	use -o whith nmap with root to know the os of machine
+
+	also if the mac address starts with 08:00:27 then it is a virtual machine
+
+6:19
+5. Scanning -- 43. Detecting Version Of Service Running On An Open Port
+	using -A with nmap enables everything
+
+4:23
+5. Scanning -- 43. Detecting Version Of Service Running On An Open Port
+	specify intensity of version scan by typing --version-intensity n(0-9)
+
+2:04
+5. Scanning -- 43. Detecting Version Of Service Running On An Open Port
+	use -sV with nmap tp know exact version of a software
+
+4:23
+5. Scanning -- 46. Using Decoys and Packet Fragmentation
+	nmap commands to bypass firewalls
+
+	1) -f(not much useful)
+
+	2) -D(WILL HIDE YOU IP):
+
+      	it is used sudo nmap -D RND:n target IP(number of IPs u want to use)[less safe]{generates all types of IPs}
+
+		OR   
+	
+		sudo nmap -D IP1,IP2,IP3,IPn target IP(IP1,IP2 are ip addresses u specify)[more safe]{ generates local IPs}
+
+2:47
+5. Scanning -- 47. Security Evasion Nmap Options
+	sudo nmap -S(used to change your ip) any ip -Pn interface(eth0) -g(port)
+
+4:55
+7. Vulnerability Analysis -- 52. Finding First Vulnerability With Nmap Scripts
+	to run scripts on nmap we use the command in /usr/share/nmap/sccripts/ then we use
+
+	sudo nmap --scripts <target IP> <type of scan>
+
+2:47
+7. Vulnerability Analysis -- 54. Nessus Installation
+	to install something use sudo dpkg -i <full name>
